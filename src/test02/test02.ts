@@ -1,16 +1,16 @@
-type LocalCityType ={
+export type LocalCityType ={
     town: string
     postcode:number
 }
-type RegionType = {
+export type RegionType = {
     streetAdress: string
     region: LocalCityType
 }
-type TechnoType ={
+export type TechnoType ={
     id:number
     title: string
 }
-type StudentType={
+export type StudentType={
     id:number
     name:string
     age:number
@@ -20,7 +20,7 @@ type StudentType={
 }
 
 
-const student:StudentType ={
+export const student:StudentType ={
      id: 2,
      name:'Max',
      age: 18,
